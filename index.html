@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>양찬우의 포트폴리오</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>양찬우</h1>
+    <p>소프트웨어인공지능 · 일어일문</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">자기소개</a></li>
+      <li><a href="#interests">관심 분야</a></li>
+      <li><a href="#projects">프로젝트</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>자기소개</h2>
+    <p>안녕하세요, 양찬우입니다. 현재 일어일문학과 소프트웨어·인공지능을 복수전공하며 일본IT기업 진출을 꿈꾸고 있습니다</p>
+    <button onclick="showIntro()">자세히 보기</button>
+  </section>
+
+  <section id="interests">
+    <h2>관심 분야</h2>
+    <ul>
+      <li>인공지능 딥마이닝</li>
+      <li>일본어</li>
+      <li>UI·UX 디자인</li>
+	  <li>AI·PS를 이용한 디자인</li>
+	  <li>일러스트 드로잉</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>프로젝트</h2>
+    <ul>
+      <li>포트폴리오 웹사이트 제작</li>
+      <li>친구들 대상으로 한 게임 컨텐츠 기획·운영</li>
+      <li>과제용 웹사이트 주문제작</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>연락처: canyu1024@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/seong-nyang" target="_blank">seong-nyang</a></p>
+    <p id="datetime"></p>
+  </footer>
+
+  <script>
+    function showIntro() {
+      alert("저는 제주대학교에 재학 중이며, 다양한 기술과 언어를 배우며 성장 중입니다.");
+    }
+
+    function updateDateTime() {
+      const now = new Date();
+      document.getElementById('datetime').textContent = '현재 시간: ' + now.toLocaleString();
+    }
+    updateDateTime();
+    setInterval(updateDateTime, 1000);
+  </script>
+</body>
+</html>
