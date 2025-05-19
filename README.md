@@ -44,8 +44,7 @@ HTML, CSS, JavaScript를 이용해 제작되었으며, GitHub Pages를 통해 �
 
 ## 🚀 배포 주소
 
-[🔗 양찬우 포트폴리오 웹사이트 보기](https://your-github-username.github.io/your-repo-name/)  
-※ 실제 URL로 바꿔주세요.
+[🔗 포트폴리오 웹사이트 보기](https://seong-nyang.github.io/Task-Portfolio/)  
 
 ---
 
